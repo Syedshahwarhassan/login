@@ -14,68 +14,78 @@
       <button id="loginbtn" onclick="loginbtn()">Login</button>
       <!-- <Button id="signbtn" onclick="signbtn()">Sign Up</Button> -->
       <!-- ======================================================btn============================================================ -->
-      <div class="login-form" id="login-form-">
-        <div class="login-head">
-          <h1 class="login-h1">Login</h1>
-        </div> 
-        <!-- /.login-head -->
-        <div class="login-body">
-          <h6 for="title">Email:</h6>
-          <input
-            type="email"
-            placeholder="Enter Your Email Address"
-            name="email"
-            id="email"
-          />
-          <h6 for="title">Password:</h6>
-          <input
-            type="password"
-            placeholder="Enter Your Password"
-            name="password"
-            id="password"
-          />
-          <button class="login-btn" onclick="login()" type="submit">
-            Login
-          </button>
-        </div>
-        <!-- /.login-body -->
+      <div class="login-back">
+        <div class="login-form" id="login-form-">
+            <div class="login-head">
+              <h1 class="login-h1">Login</h1>
+            </div> 
+            <!-- /.login-head -->
+            <div class="login-body">
+              <h6 for="title">Email:</h6>
+              <input
+                type="email"
+                placeholder="Enter Your Email Address"
+                name="email"
+                id="email"
+              />
+              <h6 for="title">Password:</h6>
+              <input
+                type="password"
+                placeholder="Enter Your Password"
+                name="password"
+                id="password"
+              />
+              <button class="login-btn" onclick="login()" type="submit">
+                Login
+              </button>
+            </div>
+            <!-- /.login-body -->
+          </div>
+          <!-- /.login-form -->
+          <!-- ========================================================sign up====================================================== -->
+          <div class="sign-form" id="sign-form-">
+            <div class="login-head">
+              <h1 class="login-h1">Sign</h1>
+            </div>
+    
+            <div class="login-body">
+              <h6 for="title">Name:</h6>
+              <input
+                type="name"
+                placeholder="Enter Your Name"
+                name="name"
+                id="name"
+              />
+              <h6 for="title">Email:</h6>
+              <input
+                type="email"
+                placeholder="Enter Your Email Address"
+                name="email"
+                id="sign-email"
+              />
+              <h6 for="title">Password:</h6>
+              <input
+                type="password"
+                placeholder="Enter Your Password"
+                name="password"
+                id="sign-password"
+              />
+              <button class="login-btn" onclick="signbtn()" type="submit">
+                Sign in
+              </button>
+            </div>
+          </div>
+          <!-- /.sign-form -->
       </div>
-      <!-- /.login-form -->
-      <!-- ========================================================sign up====================================================== -->
-      <div class="sign-form" id="sign-form-">
-        <div class="login-head">
-          <h1 class="login-h1">Sign</h1>
-        </div>
-
-        <div class="login-body">
-          <h6 for="title">Name:</h6>
-          <input
-            type="name"
-            placeholder="Enter Your Name"
-            name="name"
-            id="name"
-          />
-          <h6 for="title">Email:</h6>
-          <input
-            type="email"
-            placeholder="Enter Your Email Address"
-            name="email"
-            id="sign-email"
-          />
-          <h6 for="title">Password:</h6>
-          <input
-            type="password"
-            placeholder="Enter Your Password"
-            name="password"
-            id="sign-password"
-          />
-          <button class="login-btn" onclick="signbtn()" type="submit">
-            Sign in
-          </button>
-        </div>
+      <!-- /.login-back -->
+      <!-- =========================================body-========================================================== -->
+      <div class="webpage">
+        <h1>web Site</h1>
+<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni recusandae placeat quidem enim deleniti blanditiis vero harum sequi quod reprehenderit?</h6>
       </div>
-      <!-- /.sign-form -->
-    </div>
+      <!-- /.webpage -->
+    
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
     <script src="./index.js"></script>
   </body>
