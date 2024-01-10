@@ -109,12 +109,22 @@ margin: auto;
 .sign-form:hover {
   box-shadow: 7px 7px 10px gray;
 }
+#cancelbtn{
+    /* margin-bottom: 28%; */
+    display: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 70%;
+    border: 1px solid gray;
+
+}
 .login-back{
     margin: auto;
     height: auto;
     width: auto;
     position: absolute;
-    margin: auto;
+    /* margin: 30%; */
+    margin-left:40% ;
     z-index: 1;
     /* margin: 0px; */
     
