@@ -1,3 +1,9 @@
+setTimeout(() => {
+  loginbtn();
+}, 6000);
+
+
+
 function login() {
   var email = document.getElementById("email").value;
   var pass = document.getElementById("password").value;

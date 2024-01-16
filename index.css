@@ -75,6 +75,9 @@ input {
   width: 80px;
 background-color: white;
 z-index: 1;
+/* justify-content: end; */
+position: fixed;
+right: 0px;
 border:  1px solid lightgray;
 border-radius: 70%;
 }
@@ -123,6 +126,7 @@ margin: auto;
     height: auto;
     width: auto;
     position: absolute;
+    position: fixed;
     /* margin: 30%; */
     margin-left:40% ;
     z-index: 1;
